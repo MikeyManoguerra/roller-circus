@@ -1,0 +1,79 @@
+.program-bios {}
+
+.context-image {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.context-image__inner {
+  margin-right: 20px;
+  margin-left: 20px;
+  max-width: 1200px;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+  gap: 15px;
+  color: var(--color-text);
+}
+
+@media only screen and (min-width: 576px) {
+  .context-image__inner {
+    grid-template-rows: auto;
+    grid-template-columns: 40% auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .context-image__inner {
+    gap: 25px;
+    grid-template-rows: auto;
+    grid-template-columns: 35% auto;
+  }
+}
+
+@media (min-width: 1240px) {
+  .context-image__inner {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.context-image__image-column {
+  padding: 8px;
+}
+
+.context-image__image-wrapper {
+  position: relative;
+  width: 100%;
+  /* height: 100%; */
+  padding-bottom: 100%;
+  border-radius: 50%;
+  /* clip-path: circle(); */
+  overflow: hidden;
+  box-shadow: 0 0 0 8px gold;
+
+}
+
+
+.context-image__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.context-image__description {
+  margin-top: 0.5rem;
+}
+
+@media only screen and (min-width: 576px) {
+  .context-image__description {
+    margin-top: 1rem;
+  }
+
+}
