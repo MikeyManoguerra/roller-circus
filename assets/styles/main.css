@@ -1,7 +1,8 @@
 :root {
-  --grey: #2a2e32;
+  --grey: rgb(42, 46, 50);
+  --translucent-grey: rgb(42, 46, 50, .75);
   --red: tomato;
-  --color-text: #2a2e32;
+  --color-text: rgb(42, 46, 50);
   /* --purple: #6b4c4c; */
   --pink: pink;
   --serif: 'Luckiest Guy', monospace;
@@ -36,11 +37,12 @@ a {
   font-size: 20px;
 }
 
-h2{
+h2 {
   font-size: 32px;
   font-family: var(--serif);
 }
-h3{
+
+h3 {
   font-size: 28px;
   font-family: var(--serif);
 }
