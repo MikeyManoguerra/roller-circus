@@ -35,16 +35,21 @@ class ContextImage extends HTMLElement {
   }
 
   #initImageOverlay() {
-    const size = getContainedImageSize(this.image);
-    this.#setOverlaySize(this.overlay, size);
+    this.#setOverlaySize(this.overlay);
+
+    // uncached page load fix
+    setTimeout(() => {
+      this.#setOverlaySize(this.overlay);
+    }, 2000);
 
     window.addEventListener('resize', () => {
-      const size = getContainedImageSize(this.image);
-      this.#setOverlaySize(this.overlay, size);
+      this.#setOverlaySize(this.overlay);
     })
   }
 
-  #setOverlaySize(overlay, { width, height }) {
+  #setOverlaySize(overlay, ) {
+    const { width, height } = getContainedImageSize(this.image);
+
     overlay.style.width = width + 'px';
     overlay.style.height = height + 'px';
   }
@@ -52,8 +57,12 @@ class ContextImage extends HTMLElement {
 
 customElements.define('context-image', ContextImage);
 
+const NO_DIMENSIONS = { width: 0, height: 0, }
+
 function getContainedImageSize(img) {
   const { width, height, naturalWidth, naturalHeight } = img;
+  if (!img) return NO_DIMENSIONS;
+  if (![width, height, naturalWidth, naturalHeight].every(Boolean)) return NO_DIMENSIONS;
 
   const ratio = naturalWidth / naturalHeight;
   let actualWidth = height * ratio;
