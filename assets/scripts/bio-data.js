@@ -3,47 +3,47 @@ const bioData = (() => ({
     {
       name: 'AJ Kohn',
       imageSrc: 'assets/images/aj.jpg',
-      description: 'Professional Freestyle Champion Skateboarder and owner of The Skateboard Academy of Philadelphia. AJ has been practicing the art of skateboarding for over 35 years. He\'s a real rad dude.'
+      description: 'Professional Freestyle Champion Skateboarder and owner of The Skateboard Academy of Philadelphia, AJ has been practicing the art of skateboarding for over 35 years. He\'s a real rad dude.'
     },
     {
       name: 'Emily Automaticbizooty',
       imageSrc: 'assets/images/emily.jpg',
-      description: ''
+      description: 'As this rock steady roller glides onto the stage, you will be captivated by her boundless energy and fun vibes, which will soon transform into awe at her astounding moves!'
     },
     {
       name: 'Margo Marz',
       imageSrc: 'assets/images/margo.jpg',
-      description: ''
+      description: 'She swoops down to the stage, and ecolocates that place in your mind to stimulate pure joy. Her endless tricks and stunts cannot be encircled easily!'
     },
     {
       name: 'Mikey Mangorilla',
       imageSrc: 'assets/images/mikey.jpg',
-      description: 'Our next performer has big pants, big dreams and he likes trash. He can skate faster than a racoon running from a dumpster fire and juggle with his eyes open'
+      description: 'He wears someone else\'s oversized pants, He has big dreams and he likes trash. He juggles with his eyes open, and only flops when he means to.'
     },
     {
-      name: 'Miss Jay',
+      name: 'Miss J',
       imageSrc: 'assets/images/jay.jpg',
-      description: ''
+      description: 'When not crafting custom clothing as J\'s Custom Vinyls, Miss J is on wheels, with a smile to light up the stage and with smooth moves and grooves to match!'
     },
     {
       name: 'Mo Sparks',
       imageSrc: 'assets/images/mo.jpg',
-      description: 'I’ve got a burning question: Are you ready for a roller disco inferno? This Rocksteady Roller is going to bring the heat. Be de-lighted by our very own human fire extinguisher… on wheels! MO SPARKS!'
+      description: 'She has a burning question: Are you ready for a roller disco inferno? This Rocksteady Roller is going to bring the heat. Be de-lighted by our very own human fire extinguisher… on wheels!'
     },
     {
       name: 'Pi',
       imageSrc: 'assets/images/pi.jpg',
-      description: 'Pi is Philly’s little slice of silly and a shape-shifting HELLucination 👹🌀 They’re a costume designer, performer, makeup artist, and full-time idiot. Pi is a lipsync performer that’s inspired by inner-child whimsy, haunted houses, and raves. They are also a co-producer of @snatcherella3000 (the search for Philly’s next nightlife superstar)'
+      description: 'Pi is Philly\'s little slice of silly and a shape-shifting HELLucination 👹🌀 They\'re a costume designer, performer, makeup artist, and full-time idiot. Pi is a lipsync performer that’s inspired by inner-child whimsy, haunted houses, and raves.'
     },
     {
       name: 'Pizzle fo Shizzle',
       imageSrc: 'assets/images/pizzle.jpg',
-      description: 'Master of the Rink; #302allday; quote “keep practicing until you make it look easy.”'
+      description: 'He\'s master of the Rink; #302allday. His wise words of advice: “keep practicing until you make it look easy.”'
     },
     {
       name: 'Rebel Rabbitt',
       imageSrc: 'assets/images/rebel.jpg',
-      description: 'The clown bunny babe of Philadelphia. Whether they\'re hypnotizing you with their hips and hoops, shocking you with sideshow stunts, or teasing and tantalizing till you want to burst, this risqué rabbit is an unforgettable experience! They\'re the cottontail who raises hell, Rebel Rabbitt!'
+      description: 'This cottontail who raises hell is the clown bunny babe of Philadelphia. Whether they\'re hypnotizing you with their hips and hoops, shocking you with sideshow stunts, or teasing and tantalizing till you want to burst, this risqué rabbit is an unforgettable experience!'
     },
     {
       name: 'Tipsy McTumble',

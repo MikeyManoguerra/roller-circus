@@ -11,13 +11,7 @@
   padding-bottom: 40px;
 }
 
-.context-image__inner,
-.program__header,
-.program__sub-header {
-  margin-right: 20px;
-  margin-left: 20px;
-  max-width: 1200px;
-}
+
 
 .context-image__inner {
   display: grid;
@@ -41,14 +35,6 @@
   }
 }
 
-@media (min-width: 1240px) {
-
-  .context-image__inner,
-  .program__header {
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
 
 .context-image__image-column {
   padding: var(--image-wrapper-shadow-width);
@@ -123,4 +109,8 @@
     margin-top: 1rem;
   }
 
+}
+
+.program__special-thanks{
+  padding-left: 20px;
 }
