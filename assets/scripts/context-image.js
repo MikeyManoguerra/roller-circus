@@ -22,10 +22,9 @@ class ContextImage extends HTMLElement {
 
   #initElementContent(instance) {
     // Add relevant content to the template
-    const imageSrc = this.getAttribute("image-src")
-
-    const description = this.getAttribute("description")
-    const dataName = this.getAttribute("data-name")
+    const imageSrc = this.getAttribute("image-src");
+    const description = this.getAttribute("description");
+    const dataName = this.getAttribute("data-name");
 
     instance.querySelector('.context-image__heading').innerText = dataName;
     instance.querySelector('.context-image__description').innerText = description;
@@ -42,6 +41,8 @@ class ContextImage extends HTMLElement {
       this.#setOverlaySize(this.overlay);
     }, 1000);
 
+    // since the overlay / box shadow inset is based upon the actualy size of the image, we need to resize it
+    // when the size of the window changes
     window.addEventListener('resize', () => {
       this.#setOverlaySize(this.overlay);
     })
@@ -59,6 +60,7 @@ customElements.define('context-image', ContextImage);
 
 const NO_DIMENSIONS = { width: 0, height: 0, }
 
+// use dom provided values to get the actual image size, which we use for sizing the box shadow overlay
 function getContainedImageSize(img) {
   const { width, height, naturalWidth, naturalHeight } = img;
   if (!img) return NO_DIMENSIONS;
