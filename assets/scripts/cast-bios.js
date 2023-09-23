@@ -22,7 +22,7 @@ const castBios = (() => ([
   {
     name: 'Ms J',
     imageSrc: 'assets/images/jay.jpg',
-    description: 'When not crafting custom clothing as J\'s Custom Vinyls, Miss J is on wheels, with a smile to light up the stage and with smooth moves and grooves to match!'
+    description: 'When not crafting custom clothing as J\'s Custom Vinyls, Ms J is on wheels, with a smile to light up the stage and with smooth moves and grooves to match!'
   },
   {
     name: 'Mo Sparks',
