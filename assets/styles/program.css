@@ -111,6 +111,10 @@
 
 }
 
-.program__special-thanks{
+.program__sub-header {
+  margin-top: 1rem;
+}
+
+.program__special-thanks {
   padding-left: 20px;
 }

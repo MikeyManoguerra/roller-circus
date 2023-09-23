@@ -40,7 +40,7 @@ class ContextImage extends HTMLElement {
     // uncached page load fix
     setTimeout(() => {
       this.#setOverlaySize(this.overlay);
-    }, 2000);
+    }, 1000);
 
     window.addEventListener('resize', () => {
       this.#setOverlaySize(this.overlay);
