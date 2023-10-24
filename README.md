@@ -1,8 +1,4 @@
 # Rollercircusofficial.com splash page 
-v0.1
+v0.2
 
-TODO
-update title programatically
-cast heading
-support bios
-header
+[https://rollercircusofficial.com](https://rollercircusofficial.com)
